@@ -66,11 +66,11 @@ class AppTheme {
       ),
       iconTheme: const IconThemeData(color: AppColors.textPrimary),
     ),
-    cardTheme: CardThemeData(
-      color: AppColors.lightSurface,
-      elevation: 0,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-    ),
+    // cardTheme: CardTheme(
+    //   color: AppColors.lightSurface,
+    //   elevation: 0,
+    //   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+    // ),
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
       fillColor: AppColors.lightCard,
@@ -130,11 +130,11 @@ class AppTheme {
       ),
       iconTheme: const IconThemeData(color: Colors.white),
     ),
-    cardTheme: CardThemeData(
-      color: AppColors.darkCard,
-      elevation: 0,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-    ),
+    // cardTheme: CardThemeData(
+    //   color: AppColors.darkCard,
+    //   elevation: 0,
+    //   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+    // ),
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
       fillColor: AppColors.darkCard,
